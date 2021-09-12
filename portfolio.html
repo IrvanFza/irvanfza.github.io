@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <html lang="en" class="no-js">
   <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-88570129-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-88570129-1');
+    </script>
+
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
     <title>Portfolio - Irvan Fauziansyah</title>
@@ -64,9 +74,9 @@
                   <a href="portfolio.html">Portfolio</a>
                 </li>
                 
-                <li class="menu-item">
+                <!-- <li class="menu-item">
                   <a href="https://blog.irvan.co/" target="_blank">Blog</a>
-                </li>
+                </li> -->
 
                 <li class="menu-item">
                   <a href="contact.html">Contact</a>
@@ -100,9 +110,9 @@
 
                       <ul class="portfolio-filters">
                         <li class="active"><a class="filter btn btn-sm btn-link" data-group="category_all">All</a></li>
-                        <li><a class="filter btn btn-sm btn-link" data-group="category_ruangguru">Ruangguru</a></li>
-                        <li><a class="filter btn btn-sm btn-link" data-group="category_sweetescape">SweetEscape</a></li>
-                        <li><a class="filter btn btn-sm btn-link" data-group="category_nufaza">Nufaza</a></li>
+                        <li><a class="filter btn btn-sm btn-link" data-group="category_ruangguru" title="One of Indonesia's top Edu Tech startup">Ruangguru</a></li>
+                        <li><a class="filter btn btn-sm btn-link" data-group="category_sweetescape" title="One of Indonesia's top Photography service startup">SweetEscape</a></li>
+                        <li><a class="filter btn btn-sm btn-link" data-group="category_nufaza" title="IT Consulting">Nufaza</a></li>
                         <li><a class="filter btn btn-sm btn-link" data-group="category_freelance">Freelance</a></li>
                         <!-- <li><a class="filter btn btn-sm btn-link" data-group="category_open_sources">Open Sources</a></li> -->
                       </ul>
@@ -110,19 +120,10 @@
                       <!-- Portfolio Grid -->
                       <div class="portfolio-grid three-columns shuffle">
                         <!-- Portfolio Ruangguru -->
-                        <!-- <figure class="item standard" data-groups='["category_all", "category_ruangguru"]'>
-                          <div class="portfolio-item-img">
-                            <img src="./img/portfolio/ruangguru/asset-management/1.jpg" alt="Ruangguru's Asset Management" title="" />
-                            <a href="project/ruangguru/asset-management.html" class="ajax-page-load"></a>
-                          </div>
-
-                          <h4 class="name">Asset Management</h4>
-                          <span class="category">Ruangguru</span>
-                        </figure> -->
                         <figure class="item standard" data-groups='["category_all", "category_ruangguru"]'>
                           <div class="portfolio-item-img">
-                            <img src="./img/portfolio/ruangguru/employee-management/1.jpg" alt="Ruangguru's Employee Management" title="" />
-                            <!-- <a href="project/ruangguru/employee-management.html" class="ajax-page-load"></a> -->
+                            <img src="./img/portfolio/ruangguru/01-employee-management/employee-management.png" alt="Ruangguru's Employee Management" title="Ruangguru's Employee Management" />
+                             <a href="project/ruangguru/01-employee-management.html" class="ajax-page-load"></a>
                           </div>
 
                           <h4 class="name">Employee Management</h4>
@@ -130,17 +131,17 @@
                         </figure>
                         <figure class="item standard" data-groups='["category_all", "category_ruangguru"]'>
                           <div class="portfolio-item-img">
-                            <img src="./img/portfolio/ruangguru/english-academy/1.jpg" alt="Ruangguru's English Academy" title="" />
-                            <!-- <a href="project/ruangguru/english-academy.html" class="ajax-page-load"></a> -->
+                            <img src="./img/portfolio/ruangguru/02-employee-ticketing/employee-ticketing.png" alt="Ruangguru's Employee Management" title="Ruangguru's Employee Management" />
+                             <a href="project/ruangguru/02-employee-ticketing.html" class="ajax-page-load"></a>
                           </div>
 
-                          <h4 class="name">English Academy</h4>
+                          <h4 class="name">Employee Ticketing</h4>
                           <span class="category">Ruangguru</span>
                         </figure>
                         <figure class="item standard" data-groups='["category_all", "category_ruangguru"]'>
                           <div class="portfolio-item-img">
-                            <img src="./img/portfolio/ruangguru/performance-review/1.jpg" alt="Ruangguru's Performance Review" title="" />
-                            <!-- <a href="project/ruangguru/performance-review.html" class="ajax-page-load"></a> -->
+                            <img src="./img/portfolio/ruangguru/03-performance-review/performance-review.png" alt="Ruangguru's Performance Review" title="Ruangguru's Performance Review" />
+                             <a href="project/ruangguru/03-performance-review.html" class="ajax-page-load"></a>
                           </div>
 
                           <h4 class="name">Performance Review</h4>
@@ -148,8 +149,8 @@
                         </figure>
                         <figure class="item standard" data-groups='["category_all", "category_ruangguru"]'>
                           <div class="portfolio-item-img">
-                            <img src="./img/portfolio/ruangguru/reward-distribution/1.jpg" alt="Ruangguru's Reward Distribution" title="" />
-                            <!-- <a href="project/ruangguru/reward-distribution.html" class="ajax-page-load"></a> -->
+                            <img src="./img/portfolio/ruangguru/04-reward-distribution/reward-distribution.png" alt="Ruangguru's Reward Distribution" title="Ruangguru's Reward Distribution" />
+                             <a href="project/ruangguru/04-reward-distribution.html" class="ajax-page-load"></a>
                           </div>
 
                           <h4 class="name">Reward Distribution</h4>
@@ -157,11 +158,47 @@
                         </figure>
                         <figure class="item standard" data-groups='["category_all", "category_ruangguru"]'>
                           <div class="portfolio-item-img">
-                            <img src="./img/portfolio/ruangguru/support-ticketing/1.jpg" alt="Ruangguru's Support Ticketing" title="" />
-                            <!-- <a href="project/ruangguru/support-ticketing.html" class="ajax-page-load"></a> -->
+                            <img src="./img/portfolio/jira-service-desk/jira-service-desk.png" alt="Ruangguru's Support Ticketing" title="Ruangguru's Support Ticketing" />
+                             <a href="project/ruangguru/05-support-ticketing.html" class="ajax-page-load"></a>
                           </div>
 
                           <h4 class="name">Support Ticketing</h4>
+                          <span class="category">Ruangguru</span>
+                        </figure>
+                        <figure class="item standard" data-groups='["category_all", "category_ruangguru"]'>
+                          <div class="portfolio-item-img">
+                            <img src="./img/portfolio/ruangguru/06-english-academy/english-academy.jpeg" alt="Ruangguru's English Academy" title="Ruangguru's English Academy" />
+                             <a href="project/ruangguru/06-english-academy.html" class="ajax-page-load"></a>
+                          </div>
+
+                          <h4 class="name">English Academy</h4>
+                          <span class="category">Ruangguru</span>
+                        </figure>
+                        <figure class="item standard" data-groups='["category_all", "category_ruangguru"]'>
+                          <div class="portfolio-item-img">
+                            <img src="./img/portfolio/ruangguru/07-form-builder/form-builder.png" alt="Ruangguru's Form Builder" title="Ruangguru's Form Builder" />
+                             <a href="project/ruangguru/07-form-builder.html" class="ajax-page-load"></a>
+                          </div>
+
+                          <h4 class="name">Form Builder</h4>
+                          <span class="category">Ruangguru</span>
+                        </figure>
+                        <figure class="item standard" data-groups='["category_all", "category_ruangguru"]'>
+                          <div class="portfolio-item-img">
+                            <img src="./img/portfolio/jira-service-desk/jira-service-desk.png" alt="Ruangguru's Asset Management" title="Ruangguru's Asset Management" />
+                            <a href="project/ruangguru/08-asset-management.html" class="ajax-page-load"></a>
+                          </div>
+
+                          <h4 class="name">Asset Management</h4>
+                          <span class="category">Ruangguru</span>
+                        </figure>
+                        <figure class="item standard" data-groups='["category_all", "category_ruangguru"]'>
+                          <div class="portfolio-item-img">
+                            <img src="./img/portfolio/ruangguru/09-coding-interview/coding-interview.jpeg" alt="Ruangguru's Coding Interview" title="Ruangguru's Coding Interview" />
+                             <a href="project/ruangguru/09-coding-interview.html" class="ajax-page-load"></a>
+                          </div>
+
+                          <h4 class="name">Coding Interview</h4>
                           <span class="category">Ruangguru</span>
                         </figure>
                         <!-- /Portfolio Ruangguru -->
@@ -169,8 +206,17 @@
                         <!-- Portfolio SweetEscape -->
                         <figure class="item standard" data-groups='["category_all", "category_sweetescape"]'>
                           <div class="portfolio-item-img">
-                            <img src="./img/portfolio/sweetescape/admin-dashboard/1.jpg" alt="SweetEscape's Admin Dashboard" title="" />
-                            <!-- <a href="project/sweetescape/admin-dashboard.html" class="ajax-page-load"></a> -->
+                            <img src="./img/portfolio/sweetescape/01-web-application/sweetescape.png" alt="SweetEscape's Web Application'" title="SweetEscape's Web Application'" />
+                            <a href="project/sweetescape/01-web-application.html" class="ajax-page-load"></a>
+                          </div>
+
+                          <h4 class="name">Web Application</h4>
+                          <span class="category">SweetEscape</span>
+                        </figure>
+                        <figure class="item standard" data-groups='["category_all", "category_sweetescape"]'>
+                          <div class="portfolio-item-img">
+                            <img src="./img/portfolio/sweetescape/02-admin-dashboard/admin-dashboard.jpg" alt="SweetEscape's Admin Dashboard" title="SweetEscape's Admin Dashboard" />
+                            <a href="project/sweetescape/02-admin-dashboard.html" class="ajax-page-load"></a>
                           </div>
 
                           <h4 class="name">Admin Dashboard</h4>
@@ -178,8 +224,8 @@
                         </figure>
                         <figure class="item standard" data-groups='["category_all", "category_sweetescape"]'>
                           <div class="portfolio-item-img">
-                            <img src="./img/portfolio/sweetescape/credit-expiry/1.jpg" alt="SweetEscape's Credit Expiry" title="" />
-                            <!-- <a href="project/sweetescape/credit-expiry.html" class="ajax-page-load"></a> -->
+                            <img src="./img/portfolio/sweetescape/03-credit-expiry/digital-money.png" alt="SweetEscape's Credit Expiry" title="SweetEscape's Credit Expiry" />
+                            <a href="project/sweetescape/03-credit-expiry.html" class="ajax-page-load"></a>
                           </div>
 
                           <h4 class="name">Credit Expiry</h4>
@@ -187,8 +233,8 @@
                         </figure>
                         <figure class="item standard" data-groups='["category_all", "category_sweetescape"]'>
                           <div class="portfolio-item-img">
-                            <img src="./img/portfolio/sweetescape/data-tracking/1.jpg" alt="SweetEscape's Data Tracking'" title="" />
-                            <!-- <a href="project/sweetescape/data-tracking.html" class="ajax-page-load"></a> -->
+                            <img src="./img/portfolio/sweetescape/04-data-tracking/data-tracking.png" alt="SweetEscape's Data Tracking'" title="SweetEscape's Data Tracking'" />
+                            <a href="project/sweetescape/04-data-tracking.html" class="ajax-page-load"></a>
                           </div>
 
                           <h4 class="name">Data Tracking</h4>
@@ -196,20 +242,11 @@
                         </figure>
                         <figure class="item standard" data-groups='["category_all", "category_sweetescape"]'>
                           <div class="portfolio-item-img">
-                            <img src="./img/portfolio/sweetescape/marketing-support/1.jpg" alt="SweetEscape's Marketing Support'" title="" />
-                            <!-- <a href="project/sweetescape/marketing-support.html" class="ajax-page-load"></a> -->
+                            <img src="./img/portfolio/sweetescape/05-marketing-support/marketing-support.jpg" alt="SweetEscape's Marketing Support'" title="SweetEscape's Marketing Support'" />
+                            <a href="project/sweetescape/05-marketing-support.html" class="ajax-page-load"></a>
                           </div>
 
                           <h4 class="name">Marketing Support</h4>
-                          <span class="category">SweetEscape</span>
-                        </figure>
-                        <figure class="item standard" data-groups='["category_all", "category_sweetescape"]'>
-                          <div class="portfolio-item-img">
-                            <img src="./img/portfolio/sweetescape/web-application/1.jpg" alt="SweetEscape's Web Application'" title="" />
-                            <!-- <a href="project/sweetescape/web-application.html" class="ajax-page-load"></a> -->
-                          </div>
-
-                          <h4 class="name">Web Application</h4>
                           <span class="category">SweetEscape</span>
                         </figure>
                         <!-- /Portfolio SweetEscape -->
@@ -217,17 +254,8 @@
                         <!-- Portfolio Nufaza -->
                         <figure class="item standard" data-groups='["category_all", "category_nufaza"]'>
                           <div class="portfolio-item-img">
-                            <img src="./img/portfolio/nufaza/dapodik-paud-management/1.jpg" alt="Nufaza's Dapodik PAUD Management" title="" />
-                            <!-- <a href="project/nufaza/dapodik-paud-management.html" class="ajax-page-load"></a> -->
-                          </div>
-
-                          <h4 class="name">Dapodik PAUD Management</h4>
-                          <span class="category">Nufaza</span>
-                        </figure>
-                        <figure class="item standard" data-groups='["category_all", "category_nufaza"]'>
-                          <div class="portfolio-item-img">
-                            <img src="./img/portfolio/nufaza/dapodik-web-portal/1.jpg" alt="Nufaza's Dapodik Web Portal" title="" />
-                            <!-- <a href="project/nufaza/dapodik-web-portal.html" class="ajax-page-load"></a> -->
+                            <img src="./img/portfolio/nufaza/01-dapodik-web-portal/web-dapo.png" alt="Nufaza's Dapodik Web Portal" title="Nufaza's Dapodik Web Portal" />
+                            <a href="project/nufaza/01-dapodik-web-portal.html" class="ajax-page-load"></a>
                           </div>
 
                           <h4 class="name">Dapodik Web Portal</h4>
@@ -235,35 +263,17 @@
                         </figure>
                         <figure class="item standard" data-groups='["category_all", "category_nufaza"]'>
                           <div class="portfolio-item-img">
-                            <img src="./img/portfolio/nufaza/disdik-palembang-web/1.jpg" alt="Nufaza's Disdik Palembang Web" title="" />
-                            <!-- <a href="project/nufaza/disdik-palembang-web.html" class="ajax-page-load"></a> -->
+                            <img src="./img/portfolio/nufaza/02-dapodik-paud-management/dapo-paud.jpg" alt="Nufaza's Dapodik PAUD Management" title="Nufaza's Dapodik PAUD Management" />
+                            <a href="project/nufaza/02-dapodik-paud-management.html" class="ajax-page-load"></a>
                           </div>
 
-                          <h4 class="name">Disdik Palembang Web</h4>
+                          <h4 class="name">Dapodik PAUD Management</h4>
                           <span class="category">Nufaza</span>
                         </figure>
                         <figure class="item standard" data-groups='["category_all", "category_nufaza"]'>
                           <div class="portfolio-item-img">
-                            <img src="./img/portfolio/nufaza/museum-nasional-asset/1.jpg" alt="Nufaza's Museum Nasional Asset" title="" />
-                            <!-- <a href="project/nufaza/museum-nasional-asset.html" class="ajax-page-load"></a> -->
-                          </div>
-
-                          <h4 class="name">Museum Nasional Asset</h4>
-                          <span class="category">Nufaza</span>
-                        </figure>
-                        <figure class="item standard" data-groups='["category_all", "category_nufaza"]'>
-                          <div class="portfolio-item-img">
-                            <img src="./img/portfolio/nufaza/pmp-web-portal/1.jpg" alt="Nufaza's PMP Web Portal" title="" />
-                            <!-- <a href="project/nufaza/pmp-web-portal.html" class="ajax-page-load"></a> -->
-                          </div>
-
-                          <h4 class="name">PMP Web Portal</h4>
-                          <span class="category">Nufaza</span>
-                        </figure>
-                        <figure class="item standard" data-groups='["category_all", "category_nufaza"]'>
-                          <div class="portfolio-item-img">
-                            <img src="./img/portfolio/nufaza/sip-jabfung-gbpns/1.jpg" alt="Nufaza's SIP Jabfung GBPNS" title="" />
-                            <!-- <a href="project/nufaza/sip-jabfung-gbpns.html" class="ajax-page-load"></a> -->
+                            <img src="./img/portfolio/nufaza/03-sip-jabfung-gbpns/sip-jabfung-gbpns.jpg" alt="Nufaza's SIP Jabfung GBPNS" title="Nufaza's SIP Jabfung GBPNS" />
+                            <a href="project/nufaza/03-sip-jabfung-gbpns.html" class="ajax-page-load"></a>
                           </div>
 
                           <h4 class="name">SIP Jabfung GBPNS</h4>
@@ -271,20 +281,47 @@
                         </figure>
                         <figure class="item standard" data-groups='["category_all", "category_nufaza"]'>
                           <div class="portfolio-item-img">
-                            <img src="./img/portfolio/nufaza/snp-disdik-palembang/1.jpg" alt="Nufaza's SNP Disdik Palembang" title="" />
-                            <!-- <a href="project/nufaza/snp-disdik-palembang.html" class="ajax-page-load"></a> -->
+                            <img src="./img/portfolio/nufaza/04-museum-nasional-asset/museum-nasional.jpg" alt="Nufaza's Museum Nasional Asset" title="Nufaza's Museum Nasional Asset" />
+                            <a href="project/nufaza/04-museum-nasional-asset.html" class="ajax-page-load"></a>
+                          </div>
+
+                          <h4 class="name">Museum Nasional Asset</h4>
+                          <span class="category">Nufaza</span>
+                        </figure>
+                        <figure class="item standard" data-groups='["category_all", "category_nufaza"]'>
+                          <div class="portfolio-item-img">
+                            <img src="./img/portfolio/nufaza/05-disdik-palembang-web/disdik-palembang.png" alt="Nufaza's Disdik Palembang Web" title="Nufaza's Disdik Palembang Web" />
+                            <a href="project/nufaza/05-disdik-palembang-web.html" class="ajax-page-load"></a>
+                          </div>
+
+                          <h4 class="name">Disdik Palembang Web</h4>
+                          <span class="category">Nufaza</span>
+                        </figure>
+                        <figure class="item standard" data-groups='["category_all", "category_nufaza"]'>
+                          <div class="portfolio-item-img">
+                            <img src="./img/portfolio/nufaza/06-snp-disdik-palembang/snp-palembang.png" alt="Nufaza's SNP Disdik Palembang" title="Nufaza's SNP Disdik Palembang" />
+                            <a href="project/nufaza/06-snp-disdik-palembang.html" class="ajax-page-load"></a>
                           </div>
 
                           <h4 class="name">SNP Disdik Palembang</h4>
                           <span class="category">Nufaza</span>
                         </figure>
-                        <!-- /Portfolio SweetEscape -->
+                        <figure class="item standard" data-groups='["category_all", "category_nufaza"]'>
+                          <div class="portfolio-item-img">
+                            <img src="./img/portfolio/nufaza/07-pmp-web-portal/pmp-portal.png" alt="Nufaza's PMP Web Portal" title="Nufaza's PMP Web Portal" />
+                            <a href="project/nufaza/07-pmp-web-portal.html" class="ajax-page-load"></a>
+                          </div>
+
+                          <h4 class="name">PMP Web Portal</h4>
+                          <span class="category">Nufaza</span>
+                        </figure>
+                        <!-- /Portfolio Nufaza -->
 
                         <!-- Portfolio Freelance -->
                         <figure class="item standard" data-groups='["category_all", "category_freelance"]'>
                           <div class="portfolio-item-img">
-                            <img src="./img/portfolio/freelance/jokam/people-management/1.jpg" alt="Jokam's Community People Management" title="" />
-                            <!-- <a href="project/freelance/jokam/people-management.html" class="ajax-page-load"></a> -->
+                            <img src="./img/portfolio/full/1.jpg" alt="Jokam's Community People Management" title="Jokam's Community People Management" />
+                            <a href="project/freelance/jokam/01-people-management.html" class="ajax-page-load"></a>
                           </div>
 
                           <h4 class="name">People Management</h4>
@@ -292,8 +329,17 @@
                         </figure>
                         <figure class="item standard" data-groups='["category_all", "category_freelance"]'>
                           <div class="portfolio-item-img">
-                            <img src="./img/portfolio/freelance/gunungkidul/management-dapodik/1.jpg" alt="Disdik Gunungkidul's Management Dapodik" title="" />
-                            <!-- <a href="project/freelance/gunungkidul/management-dapodik.html" class="ajax-page-load"></a> -->
+                            <img src="./img/portfolio/full/1.jpg" alt="Disdik Gunungkidul's Verval Dapodik" title="Disdik Gunungkidul's Verval Dapodik" />
+                            <a href="project/freelance/gunungkidul/01-verval-dapodik.html" class="ajax-page-load"></a>
+                          </div>
+
+                          <h4 class="name">Verval Dapodik</h4>
+                          <span class="category">[Freelance] Disdik Gunungkidul</span>
+                        </figure>
+                        <figure class="item standard" data-groups='["category_all", "category_freelance"]'>
+                          <div class="portfolio-item-img">
+                            <img src="./img/portfolio/full/1.jpg" alt="Disdik Gunungkidul's Management Dapodik" title="Disdik Gunungkidul's Management Dapodik" />
+                            <a href="project/freelance/gunungkidul/02-management-dapodik.html" class="ajax-page-load"></a>
                           </div>
 
                           <h4 class="name">Management Dapodik</h4>
@@ -301,17 +347,8 @@
                         </figure>
                         <figure class="item standard" data-groups='["category_all", "category_freelance"]'>
                           <div class="portfolio-item-img">
-                            <img src="./img/portfolio/freelance/gunungkidul/school-administration/1.jpg" alt="Disdik Gunungkidul's School Administration" title="" />
-                            <!-- <a href="project/freelance/gunungkidul/school-administration.html" class="ajax-page-load"></a> -->
-                          </div>
-
-                          <h4 class="name">School Administration</h4>
-                          <span class="category">[Freelance] Disdik Gunungkidul</span>
-                        </figure>
-                        <figure class="item standard" data-groups='["category_all", "category_freelance"]'>
-                          <div class="portfolio-item-img">
-                            <img src="./img/portfolio/freelance/gunungkidul/sipbm/1.jpg" alt="Disdik Gunungkidul's SIPBM" title="" />
-                            <!-- <a href="project/freelance/gunungkidul/sipbm.html" class="ajax-page-load"></a> -->
+                            <img src="./img/portfolio/full/1.jpg" alt="Disdik Gunungkidul's SIPBM" title="Disdik Gunungkidul's SIPBM" />
+                            <a href="project/freelance/gunungkidul/03-sipbm.html" class="ajax-page-load"></a>
                           </div>
 
                           <h4 class="name">SIPBM</h4>
@@ -319,20 +356,20 @@
                         </figure>
                         <figure class="item standard" data-groups='["category_all", "category_freelance"]'>
                           <div class="portfolio-item-img">
-                            <img src="./img/portfolio/freelance/gunungkidul/spm/1.jpg" alt="Disdik Gunungkidul's SPM" title="" />
-                            <!-- <a href="project/freelance/gunungkidul/spm.html" class="ajax-page-load"></a> -->
+                            <img src="./img/portfolio/full/1.jpg" alt="Disdik Gunungkidul's School Administration" title="Disdik Gunungkidul's School Administration" />
+                            <a href="project/freelance/gunungkidul/04-school-administration.html" class="ajax-page-load"></a>
                           </div>
 
-                          <h4 class="name">SPM</h4>
+                          <h4 class="name">School Administration</h4>
                           <span class="category">[Freelance] Disdik Gunungkidul</span>
                         </figure>
                         <figure class="item standard" data-groups='["category_all", "category_freelance"]'>
                           <div class="portfolio-item-img">
-                            <img src="./img/portfolio/freelance/gunungkidul/verval-dapodik/1.jpg" alt="Disdik Gunungkidul's Verval Dapodik" title="" />
-                            <!-- <a href="project/freelance/gunungkidul/verval-dapodik.html" class="ajax-page-load"></a> -->
+                            <img src="./img/portfolio/full/1.jpg" alt="Disdik Gunungkidul's SPM" title="Disdik Gunungkidul's SPM" />
+                            <a href="project/freelance/gunungkidul/05-spm.html" class="ajax-page-load"></a>
                           </div>
 
-                          <h4 class="name">Verval Dapodik</h4>
+                          <h4 class="name">SPM</h4>
                           <span class="category">[Freelance] Disdik Gunungkidul</span>
                         </figure>
                         <!-- /Portfolio Freelance -->
@@ -352,15 +389,16 @@
           <div class="footer-social">
             <ul class="footer-social-links">
               <li>
-                <a href="https://www.twitter.com/IrvanFza" target="_blank" title="Irvan Fauziansyah on Twitter">Twitter</a>
-              </li>
-
-              <li>
-                <a href="https://www.instagram.com/IrvanFza" target="_blank" title="Irvan Fauziansyah on Instagram">Instagram</a>
-              </li>
-
-              <li>
                 <a href="https://www.linkedin.com/in/IrvanFza" target="_blank" title="Irvan Fauziansyah on LinkedIn">LinkedIn</a>
+              </li>
+              <li>
+                <a href="https://www.upwork.com/freelancers/~01e42e9e97c8769cb4" target="_blank" title="Irvan Fauziansyah on Upwork">Upwork</a>
+              </li>
+              <li>
+                <a href="https://www.github.com/IrvanFza" target="_blank" title="Irvan Fauziansyah on GitHub">GitHub</a>
+              </li>
+              <li>
+                <a href="https://www.twitter.com/IrvanFza" target="_blank" title="Irvan Fauziansyah on Twitter">Twitter</a>
               </li>
             </ul>
           </div>

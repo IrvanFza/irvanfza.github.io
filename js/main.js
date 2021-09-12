@@ -42,7 +42,7 @@
         var href = $('.ajax-page-load').each(function(){
             href = $(this).attr('href');
             if(location.hash == location.hash.split('/')[0] + '/' + href.substr(0,href.length-5)){
-                var toLoad =  $(this).attr('href');
+                var toLoad = $(this).attr('href');
                 showContent();
                 ajaxLoadedContent.load(toLoad);
                 return false;
